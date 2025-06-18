@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Joshna M - Full Stack Developer Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="container" role="main">
+  <aside class="profile" aria-label="User profile with information">
+    <img src="passport.jpg" alt="Professional headshot photo of Joshna M in business casual with subtle smile" />
+    <h1>Joshna M</h1>
+    <p class="role">Full Stack Developer | Engineering Student</p>
+    <div class="contact-info" aria-label="Contact Information">
+      <div>📞 <a href="tel:+916364354740">+91 63643 54740</a></div>
+      <div>✉️ <a href="mailto:joshnareddy2003@gmail.com">joshnareddy2003@gmail.com</a></div>
+    </div>
+    <nav class="social-links" aria-label="Social media profiles">
+      <a href="https://www.linkedin.com/in/joshna-mahananda-ba5050316/" target="_blank" rel="noopener" aria-label="LinkedIn"><span class="material-icons" aria-hidden="true">linkedin</span></a>
+      <a href="https://github.com/joshna0217" target="_blank" rel="noopener" aria-label="GitHub"><span class="material-icons" aria-hidden="true">code</span></a>
+    </nav>
+  </aside>
+
+  <main class="content" tabindex="0">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>Results-driven engineering student with strong full stack development skills in ReactJS, Node.js, and Express. Passionate about building scalable, user-friendly web applications with clean UI/UX design. Experienced in collaborative Agile environments.</p>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Technical Skills</h2>
+      <ul class="skills-list" aria-label="List of technical skills">
+        <li>HTML5</li><li>CSS3</li><li>JavaScript (Modern ES6+)</li><li>Python</li><li>R</li><li>React</li><li>Redux</li><li>Node.js</li><li>Express.js</li><li>Tailwind CSS</li><li>Django</li><li>MongoDB</li><li>MySQL</li><li>GitHub</li><li>Figma</li><li>Adobe XD</li><li>Photoshop</li><li>RESTful APIs</li><li>DSA</li><li>UI/UX Design</li>
+      </ul>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+      <p><strong>Intern - Colt Assist Pvt. Ltd (Sept 2023 – Jan 2024)</strong></p>
+      <ul>
+        <li>Developed dynamic web apps integrating front-end and back-end components.</li>
+        <li>Collaborated in Agile environment for debugging, code reviews, and CI/CD.</li>
+        <li>Optimized web performance using HTML, CSS, JavaScript, and database management.</li>
+      </ul>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <ul class="projects-list">
+        <li>
+          <span class="project-title">YouTube Clone</span>
+          <p>Responsive video streaming platform built with React and Tailwind CSS incorporating API-driven video data and dynamic search.</p>
+        </li>
+        <li>
+          <span class="project-title">ShoppyGlobe</span>
+          <p>E-commerce app featuring user authentication, product listings, and shopping cart; backend built with Node.js, Express, MongoDB; frontend with React.</p>
+        </li>
+        <li>
+          <span class="project-title">Cryptocurrency Price Prediction</span>
+          <p>Used Python and machine learning to forecast crypto prices analyzing historical and real-time data trends.</p>
+        </li>
+        <li>
+          <span class="project-title">Human Resource Management System</span>
+          <p>Created scalable task management UI with React, enhancing team productivity and user experience for employers and employees.</p>
+        </li>
+        <li>
+          <span class="project-title">Face Recognition Smart Attendance System</span>
+          <p>Automated attendance tracking using facial recognition technology improving security and efficiency.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="certifications" aria-labelledby="certifications-heading">
+      <h2 id="certifications-heading">Certifications</h2>
+      <ul class="certifications-list">
+        <li>Full Stack Web Development - Internshala Trainings</li>
+        <li>Front-End Development (HTML, CSS, React)</li>
+        <li>Back-End Development (Node.js, RESTful APIs, Express.js, MongoDB)</li>
+        <li>UI/UX Design - Figma & Adobe XD</li>
+        <li>AWS Cloud Essentials Certificate</li>
+      </ul>
+    </section>
+
+    <section id="achievements" aria-labelledby="achievements-heading">
+      <h2 id="achievements-heading">Achievements</h2>
+      <ul class="achievements-list">
+        <li>On-desk Registration Coordinator at AMC Hackathon – Managed 300+ attendees and collected ₹50,000+ in fees.</li>
+        <li>Participant in Smart India Hackathon – Contributed innovative national-level solutions.</li>
+      </ul>
+    </section>
+  </main>
+
+  <aside class="bot-contact" aria-label="Personal assistant and contact information">
+    <h2>Contact & Chat Bot</h2>
+    <div class="contact-details">
+      <p>Feel free to reach out for professional inquiries or to learn more about my work!</p>
+      <p><strong>Email:</strong> <a href="mailto:joshnareddy2003@gmail.com">joshnareddy2003@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+916364354740">+91 63643 54740</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/joshnareddy2003" target="_blank" rel="noopener">linkedin.com/in/joshnareddy2003</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/joshnareddy2003" target="_blank" rel="noopener">github.com/joshnareddy2003</a></p>
+    </div>
+  </aside>
+</div>
+
+<!-- Chatbot button and panel -->
+<button class="chatbot-button" aria-label="Toggle chat bot" id="chatbotToggle" aria-expanded="false">
+  <span class="material-icons">smart_toy</span>
+</button>
+<div class="chatbot-panel" role="region" aria-live="polite" aria-atomic="false" aria-label="Personal assistant chat bot" hidden id="chatbotPanel">
+  <div class="chatbot-header">
+    <span>Joshna Bot</span>
+    <button aria-label="Close chat bot" id="chatbotClose">&times;</button>
+  </div>
+  <div class="chatbot-messages" id="chatbotMessages" tabindex="0" aria-live="polite"></div>
+  <form id="chatbotForm" class="chatbot-input-area" aria-label="Send a message to personal bot">
+    <input type="text" id="chatbotInput" placeholder="Ask me about my skills, projects..." autocomplete="off" required aria-required="true" />
+    <button type="submit" aria-label="Send message">Send</button>
+  </form>
+</div>
+
+<script src="chatbot.js"></script>
+
+</body>
+</html>
